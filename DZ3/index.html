@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ввод имени пользователя</title>
+    <script>
+        function showName() {
+            var name = document.getElementById("nameInput").value;
+            alert("Привет, " + name + "!");
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Как вас зовут?</h1>
+    <input type="text" id="nameInput" placeholder="Введите ваше имя"><br><br>
+    <button onclick="showName()">Показать</button>
+</body>
+
+</html>
